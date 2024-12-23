@@ -353,7 +353,7 @@
 	  </tbody>
 	</table>
 	
-		<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" id = "posters_and_talks">
+	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" id = "posters_and_talks">
 	  <tbody>
 	    <tr>
 	      <td style="padding:20px;width:100%;vertical-align:middle">
@@ -453,41 +453,49 @@
 	  </tbody>
 	</table>
 	
-	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" id = "projects"><tbody>
-	  <tr>
-	    <td style="padding:20px;width:100%;vertical-align:middle">
-	      <br><heading>Projects</heading>
-	    </td>
-	  </tr>
-	</tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" id = "projects"><tbody>
+        <tr>
+        <td style="padding:20px;width:100%;vertical-align:middle">
+          <br><heading>Projects</heading>
+        </td>
+        </tr>
+        </tbody></table>
+        
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+	  <tr onmouseout="nlt_stop()" onmouseover="nlt_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+		    <a href = "projects/other_projects/cs598_pic.PNG"><img src='projects/other_projects/cs598_pic.PNG' width="160"></a>
+              <script type="text/javascript">
+                function nlt_start() {
+                  document.getElementById('nlt_image').style.opacity = "1";
+                }
+
+                function nlt_stop() {
+                  document.getElementById('nlt_image').style.opacity = "0";
+                }
+                nlt_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Show and Tell: A Neural Image Caption Generator</papertitle>
+              </a>
+              <br>
+		    Class project for <a href = "https://courses.engr.illinois.edu/ie534/fa2018/">CS598 Deep learning, Fall 2018, UIUC</a> 
+		    <br>Taught by <a href = "https://jasirign.github.io/">Prof. Justin Sirignano</a>
+              <br>
+              <a href="projects/other_projects/CS598_DL_12Dec2018_FinalReport.pdf">PDF report</a> |
+              <a href="projects/other_projects/PresentationCS598.pdf">Slides</a> |
+              <a href="https://github.com/kaurrachneet6/ShowAndTell-neural-captioning">Code</a>
+              <p></p>
+		<br>
+		<br>
+		<br>
+            </td>
+          </tr>
 	
-	
-	    <!-- Moving Depot (MOD) -->
-	    <tr onmouseout="nlt_stop()" onmouseover="nlt_start()">
-	      <td style="padding:20px;width:25%;vertical-align:middle">
-	        <a href = "projects/other_projects/moving_depot_pic.PNG"><img src='projects/other_projects/moving_depot_pic.PNG' width="160"></a>
-	        <script type="text/javascript">
-	          function nlt_start() {
-	            document.getElementById('nlt_image').style.opacity = "1";
-	          }
-	          function nlt_stop() {
-	            document.getElementById('nlt_image').style.opacity = "0";
-	          }
-	          nlt_stop()
-	        </script>
-	      </td>
-	      <td style="padding:20px;width:75%;vertical-align:middle">
-	        <papertitle>Moving Depot (MOD): An Efficient Depot Motion Strategy for Multi-Robot Foraging</papertitle>
-	        <br>
-	        Presented at <a href="https://ants2024conference.org" target="_blank">ANTS 2024 International Conference on Swarm Intelligence</a>
-	        <br>
-	        <p></p>
-	      </td>
-	    </tr>
-	
-	  </tbody>
+	 </tbody>
 	</table>
-	
 		
 		
 		<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="service">
