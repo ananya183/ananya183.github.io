@@ -252,19 +252,30 @@
                         </tbody>
                     </table>
 
-		<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-		  <tbody>
-		    <tr>
-		      <td style="padding:20px;width:100%;vertical-align:middle">
-			<br><heading>Conference Publications</heading>
-		      </td>
-		    </tr>
-		  </tbody>
-		</table>    
-		
-		<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-		  <tbody>
-		    <tr>
+	      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" id="publications"><tbody>
+	            <tr>    
+	            <td style="padding:20px;width:100%;vertical-align:middle">
+	              <br><heading>Conference Proceedings</heading>
+	            </td>
+	          </tr>
+	        </tbody></table>
+	        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+	
+	          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+	            <td style="padding:20px;width:25%;vertical-align:middle">
+			    <a href = "projects/Accelerometer_EMBC2020_image.png"><img src="projects/Accelerometer_EMBC2020_image.png" width="160"></a>
+	              <script type="text/javascript">
+	                function dualrefl_start() {
+	                  document.getElementById('dualrefl_image').style.opacity = "1";
+	                }
+	
+	                function dualrefl_stop() {
+	                  document.getElementById('dualrefl_image').style.opacity = "0";
+	                }
+	                dualrefl_stop()
+	              </script>
+	            </td>
+			  
 		      <td style="padding:20px;width:100%;vertical-align:middle">
 			<a href="https://link.springer.com/book/10.1007/978-3-031-34789-6">
 			  <papertitle>Moving Depot (MOD): An Efficient Depot Motion Strategy for Multi-Robot Foraging</papertitle>
