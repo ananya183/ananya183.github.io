@@ -81,7 +81,7 @@
         
         <div class="bottom-links">
             <div class="nerd-test">
-                <a href="http://www.nerdtests.com/ft_nq.php">
+                <a href="http://www.nerdtests.com/ft_nq.php" target="_blank">
                     <img src="http://www.nerdtests.com/images/ft/nq/5ec49eb8f7.gif" 
                          alt="I am nerdier than 90% of all people. Are you a nerd? Click here to take the Nerd Test, get nerdy images and jokes, and talk on the nerd forum!">
                 </a>
@@ -107,12 +107,13 @@
         .bottom-links {
             display: flex;
             flex-direction: column;
-            align-items: center; /* center nerd-test and flag horizontally */
+            align-items: flex-start; /* align nerd-test and flag to the left */
             margin-bottom: 10px; /* optional spacing from bottom */
         }
 
         .nerd-test {
             margin-bottom: 10px; /* spacing between nerd-test and flag counter */
+            margin-left: 0; /* ensure no left margin */
         }
     </style>
 
